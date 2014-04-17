@@ -1,0 +1,32 @@
+.binary-clock-led {
+    background: #dedede;
+    width: 6em;
+    height: 6em;
+    margin: 0 2px 2px 0;
+}
+
+.binary-clock-digit {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.binary-clock-digit-1, .binary-clock-digit-3, .binary-clock-digit-5 {
+    float: left;
+}
+
+.binary-clock-digit-2, .binary-clock-digit-4, .binary-clock-digit-6 {
+    float: left;
+    margin-right: .5em;
+}
+
+.binary-clock-digit-1 .lighted, .binary-clock-digit-2 .lighted {
+    background: #EFEF00;
+}
+
+.binary-clock-digit-3 .lighted, .binary-clock-digit-4 .lighted {
+    background: #EFAA00;
+}
+
+.binary-clock-digit-5 .lighted, .binary-clock-digit-6 .lighted {
+    background: #0AF;
+}
